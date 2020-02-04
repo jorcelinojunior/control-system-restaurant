@@ -1,0 +1,6 @@
+{
+  "ConnectionStrings": {
+    "localhost"  : "server=127.0.0.1;uid=root;pwd=;database=Granville",
+    "GranvilleDB": "server=sql248.main-hosting.eu;uid=u204920469_granv;pwd=123456;database=u204920469_resta"
+  }
+}

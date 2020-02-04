@@ -1,0 +1,61 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h1 class="h4">{{ title }}</h1>
+
+            Dados
+            <br />
+            <form>
+                <div class="form-group">
+                    <label for="inputRestaurante">Restaurante</label>
+                    <select class="custom-select" id="inputRestaurante"
+                            [(ngModel)]="prato.restauranteId" [ngModelOptions]="{standalone: true}">
+                        <option value="-1" selected disabled>Escolha...</option>
+                        <option *ngFor="let itemRestaurante of restaurantes" [ngValue]="itemRestaurante.id">
+                            {{ itemRestaurante.nome }}
+                        </option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="inputNome">Prato</label>
+                    <input type="text" class="form-control" id="inputNome"
+                           aria-describedby="Nome do Prato" placeholder="Ex: Macarrão ao molho branco"
+                           [(ngModel)]="prato.nome" [ngModelOptions]="{standalone: true}">
+                </div>
+                <div class="form-group">
+                    <label for="inputPreco">Preco(R$)</label>
+                    <input type="text" class="form-control" id="inputPreco"
+                           aria-describedby="Preco do Prato" placeholder="Ex: 10,00"
+                           [(ngModel)]="prato.preco" [ngModelOptions]="{standalone: true}"
+                           currencyMask [options]="{ prefix: 'R$ ', thousands: '.', decimal: ',' }">
+                </div>
+
+                <a class="btn btn-danger mr-3 text-white" [swal]="cancelSwal">
+                    <i class="material-icons">undo</i> Cancelar
+                </a>
+                <a class="btn btn-success text-white" (click)="cadastrarPrato()">
+                    <i class="material-icons">save</i> Salvar
+                </a>
+
+                <swal #cancelSwal
+                      title="Cancelar {{ !ehEdicao ? 'cadastro' : 'edicao' }}?"
+                      text="Se prosseguir voce perdera as informacoes!"
+                      type="error"
+                      [confirmButtonText]="okMsg"
+                      [confirmButtonColor]="confirmButtonColor"
+                      [showCancelButton]="true"
+                      (confirm)="cancelarPrato()">
+                </swal>
+
+                <swal #successSwal
+                      title="Prato cadastrado"
+                      text="O prato foi cadastrado com sucesso!"
+                      type="success"
+                      [showCancelButton]="false"
+                      (confirm)="cancelarPrato()">
+                </swal>
+            </form>
+        </div>
+    </div>
+</div>

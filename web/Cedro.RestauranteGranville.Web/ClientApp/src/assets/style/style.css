@@ -1,0 +1,8 @@
+﻿.cursor-pointer {
+    cursor: pointer;
+}
+
+button i.material-icons, a i.material-icons {
+    float: left;
+    margin-right: 10px;
+}

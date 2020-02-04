@@ -1,0 +1,12 @@
+D:\GIT\ProjetoEntrevista\Cedro.RestauranteGranville\Cedro.RestauranteGranville.Repositorio\bin\Debug\netcoreapp2.2\Cedro.RestauranteGranville.Repositorio.deps.json
+D:\GIT\ProjetoEntrevista\Cedro.RestauranteGranville\Cedro.RestauranteGranville.Repositorio\bin\Debug\netcoreapp2.2\Cedro.RestauranteGranville.Repositorio.dll
+D:\GIT\ProjetoEntrevista\Cedro.RestauranteGranville\Cedro.RestauranteGranville.Repositorio\bin\Debug\netcoreapp2.2\Cedro.RestauranteGranville.Repositorio.pdb
+D:\GIT\ProjetoEntrevista\Cedro.RestauranteGranville\Cedro.RestauranteGranville.Repositorio\bin\Debug\netcoreapp2.2\Cedro.RestauranteGranville.Dominio.dll
+D:\GIT\ProjetoEntrevista\Cedro.RestauranteGranville\Cedro.RestauranteGranville.Repositorio\bin\Debug\netcoreapp2.2\Cedro.RestauranteGranville.Dominio.pdb
+D:\GIT\ProjetoEntrevista\Cedro.RestauranteGranville\Cedro.RestauranteGranville.Repositorio\obj\Debug\netcoreapp2.2\Cedro.RestauranteGranville.Repositorio.csprojAssemblyReference.cache
+D:\GIT\ProjetoEntrevista\Cedro.RestauranteGranville\Cedro.RestauranteGranville.Repositorio\obj\Debug\netcoreapp2.2\Cedro.RestauranteGranville.Repositorio.csproj.CoreCompileInputs.cache
+D:\GIT\ProjetoEntrevista\Cedro.RestauranteGranville\Cedro.RestauranteGranville.Repositorio\obj\Debug\netcoreapp2.2\Cedro.RestauranteGranville.Repositorio.AssemblyInfoInputs.cache
+D:\GIT\ProjetoEntrevista\Cedro.RestauranteGranville\Cedro.RestauranteGranville.Repositorio\obj\Debug\netcoreapp2.2\Cedro.RestauranteGranville.Repositorio.AssemblyInfo.cs
+D:\GIT\ProjetoEntrevista\Cedro.RestauranteGranville\Cedro.RestauranteGranville.Repositorio\obj\Debug\netcoreapp2.2\Cedro.RestauranteGranville.Repositorio.csproj.CopyComplete
+D:\GIT\ProjetoEntrevista\Cedro.RestauranteGranville\Cedro.RestauranteGranville.Repositorio\obj\Debug\netcoreapp2.2\Cedro.RestauranteGranville.Repositorio.dll
+D:\GIT\ProjetoEntrevista\Cedro.RestauranteGranville\Cedro.RestauranteGranville.Repositorio\obj\Debug\netcoreapp2.2\Cedro.RestauranteGranville.Repositorio.pdb

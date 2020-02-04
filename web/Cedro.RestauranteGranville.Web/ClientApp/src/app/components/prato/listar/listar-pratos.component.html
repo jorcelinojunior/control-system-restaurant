@@ -1,0 +1,45 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <a class="btn btn-success mb-3 text-white" [routerLink]='["/pratos/cadastrar"]'>
+                <i class="material-icons">add</i> Cadastrar novo Prato
+            </a>
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th scope="col"></th>
+                        <th scope="col"></th>
+                        <th scope="col">Restaurante</th>
+                        <th scope="col">Prato</th>
+                        <th scope="col">Preco</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let pratoItem of pratos">
+                        <th scope="row">
+                            <i class="material-icons cursor-pointer text-danger" title="Deletar" (click)="deletarPrato(pratoItem.id)">delete</i>
+                        </th>
+                        <th scope="row">
+                            <a class="text-primary" [routerLink]="['/pratos/cadastrar', pratoItem.id]">
+                                <i class="material-icons cursor-pointer" title="Editar">create</i>
+                            </a>
+                        </th>
+                        <td>{{ pratoItem.restaurante.nome }}</td>
+                        <td>{{ pratoItem.nome }}</td>
+                        <td>R$ {{ pratoItem.preco.toFixed(2).replace(".",",") }}</td>
+                    </tr>
+                </tbody>
+            </table>
+            <!--<swal #deleteSwal
+                  title="Deletar Prato?"
+                  text="Voce esta prestes a excluir o prato!"
+                  type="error"
+                  [confirmButtonText]="okMsg"
+                  [confirmButtonColor]="confirmButtonColor"
+                  [showCancelButton]="true"
+                  (confirm)="deletarPrato($event)">
+            </swal>-->
+        </div>
+    </div>
+    
+</div>

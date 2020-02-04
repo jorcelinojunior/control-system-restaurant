@@ -1,0 +1,49 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+
+
+            <form>
+                <div class="form-group">
+                    <label for="inputNome">Nome</label>
+                    <input type="text" class="form-control" id="inputNome" 
+                           aria-describedby="Nome do Restaurante" 
+                           placeholder="Digite o nome do restaurante"
+                           [(ngModel)]="chave" [ngModelOptions]="{standalone: true}">
+                </div>
+
+                <a class="btn btn-primary mb-3 mr-3 text-white" (click)="pesquisarRestaurantes(chave)">
+                    <i class="material-icons">search</i> Pesquisar
+                </a>
+                <a class="btn btn-success mb-3 text-white" [routerLink]="['/restaurantes/cadastrar']">
+                    <i class="material-icons">add</i> Cadastrar novo Restaurante
+                </a>
+            </form>
+
+
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th scope="col"></th>
+                        <th scope="col"></th>
+                        <th scope="col">Restaurante</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let restauranteItem of restaurantes">
+                        <th scope="row">
+                            <i class="material-icons cursor-pointer text-danger" title="Deletar" (click)="deletarRestaurante(restauranteItem.id)">delete</i>
+                        </th>
+                        <th scope="row">
+                            <a [routerLink]="['/restaurantes/cadastrar', restauranteItem.id]" class="text-primary">
+                                <i class="material-icons cursor-pointer" title="Editar">create</i>
+                            </a>
+                        </th>
+                        <td>{{ restauranteItem.nome }}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+</div>

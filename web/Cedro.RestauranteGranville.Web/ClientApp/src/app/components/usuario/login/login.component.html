@@ -1,0 +1,34 @@
+﻿<div class="text-center">
+    <form class="form-signin">
+        <div class="text-center mb-4">
+            <img class="mb-4" [src]="enderecoLogo" alt="Restaurante Granville" width="180" height="180">
+            <h1 class="h3 mb-3 font-weight-normal">Login</h1>
+        </div>
+
+        <div class="form-label-group">
+            <input type="email" id="inputEmail" class="form-control" 
+                   placeholder="Digite o seu email" required=""
+                   [(ngModel)]="usuario.email" [ngModelOptions]="{standalone: true}">
+            <label for="inputEmail">Email</label>
+        </div>
+
+        <div class="form-label-group">
+            <input type="password" id="inputSenha" class="form-control" 
+                   placeholder="Digite a sua senha" required=""
+                   [(ngModel)]="usuario.senha" [ngModelOptions]="{standalone: true}">
+            <label for="inputSenha">Senha</label>
+        </div>
+
+        <div class="checkbox mb-3">
+            <label>
+                <input type="checkbox" value="remember-me"> Lembrar-me
+            </label>
+        </div>
+        <button class="btn btn-lg btn-primary btn-block" type="submit" (click)="entrar()">Entrar</button>
+
+        <div class="alert alert-primary mt-2" role="alert" *ngIf="usuarioAutenticado">
+            Usuario Autenticado!
+        </div>
+
+    </form>
+</div>

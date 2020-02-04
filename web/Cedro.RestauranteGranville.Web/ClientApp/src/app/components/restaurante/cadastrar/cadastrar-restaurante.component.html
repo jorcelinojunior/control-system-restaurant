@@ -1,0 +1,35 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h1 class="h4">{{ !ehEdicao ? 'Cadastro de Restaurante' : 'Editar Restaurante' }}</h1>
+
+            Dados
+            <br />
+
+            <form>
+                <div class="form-group">
+                    <label for="inputNome">Nome do Restaurante</label>
+                    <input type="text" class="form-control" id="inputNome" aria-describedby="Nome do Restaurante" 
+                           placeholder="Ex: Restaurante Comida Goiania"
+                           [(ngModel)]="restaurante.nome" [ngModelOptions]="{standalone: true}">
+                </div>
+
+                <button type="submit" class="btn btn-danger mr-3" [swal]="cancelSwal">
+                    <i class="material-icons">undo</i> Cancelar
+                </button>
+                <button type="submit" class="btn btn-success" (click)="salvarRestaurante()">
+                    <i class="material-icons">save</i> Salvar
+                </button>
+            </form>
+            <swal #cancelSwal
+                  title="Cancelar {{ !ehEdicao ? 'cadastro' : 'edicao' }}?"
+                  text="Se prosseguir voce perdera as informacoes!"
+                  type="error"
+                  [confirmButtonText]="okMsg"
+                  [confirmButtonColor]="confirmButtonColor"
+                  [showCancelButton]="true"
+                  (confirm)="cancelarRestaurante()">
+            </swal>
+        </div>
+    </div>
+</div>

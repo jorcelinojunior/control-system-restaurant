@@ -1,0 +1,195 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\GIT\\ProjetoEntrevista\\Cedro.RestauranteGranville\\Cedro.RestauranteGranville.Api\\Cedro.RestauranteGranville.Api.csproj": {}
+  },
+  "projects": {
+    "D:\\GIT\\ProjetoEntrevista\\Cedro.RestauranteGranville\\Cedro.RestauranteGranville.Api\\Cedro.RestauranteGranville.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\GIT\\ProjetoEntrevista\\Cedro.RestauranteGranville\\Cedro.RestauranteGranville.Api\\Cedro.RestauranteGranville.Api.csproj",
+        "projectName": "Cedro.RestauranteGranville.Api",
+        "projectPath": "D:\\GIT\\ProjetoEntrevista\\Cedro.RestauranteGranville\\Cedro.RestauranteGranville.Api\\Cedro.RestauranteGranville.Api.csproj",
+        "packagesPath": "C:\\Users\\Jorcelino\\.nuget\\packages\\",
+        "outputPath": "D:\\GIT\\ProjetoEntrevista\\Cedro.RestauranteGranville\\Cedro.RestauranteGranville.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Jorcelino\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "D:\\GIT\\ProjetoEntrevista\\Cedro.RestauranteGranville\\Cedro.RestauranteGranville.Repositorio\\Cedro.RestauranteGranville.Repositorio.csproj": {
+                "projectPath": "D:\\GIT\\ProjetoEntrevista\\Cedro.RestauranteGranville\\Cedro.RestauranteGranville.Repositorio\\Cedro.RestauranteGranville.Repositorio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[2.2.3, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "D:\\GIT\\ProjetoEntrevista\\Cedro.RestauranteGranville\\Cedro.RestauranteGranville.Dominio\\Cedro.RestauranteGranville.Dominio.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\GIT\\ProjetoEntrevista\\Cedro.RestauranteGranville\\Cedro.RestauranteGranville.Dominio\\Cedro.RestauranteGranville.Dominio.csproj",
+        "projectName": "Cedro.RestauranteGranville.Dominio",
+        "projectPath": "D:\\GIT\\ProjetoEntrevista\\Cedro.RestauranteGranville\\Cedro.RestauranteGranville.Dominio\\Cedro.RestauranteGranville.Dominio.csproj",
+        "packagesPath": "C:\\Users\\Jorcelino\\.nuget\\packages\\",
+        "outputPath": "D:\\GIT\\ProjetoEntrevista\\Cedro.RestauranteGranville\\Cedro.RestauranteGranville.Dominio\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Jorcelino\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "D:\\GIT\\ProjetoEntrevista\\Cedro.RestauranteGranville\\Cedro.RestauranteGranville.Repositorio\\Cedro.RestauranteGranville.Repositorio.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\GIT\\ProjetoEntrevista\\Cedro.RestauranteGranville\\Cedro.RestauranteGranville.Repositorio\\Cedro.RestauranteGranville.Repositorio.csproj",
+        "projectName": "Cedro.RestauranteGranville.Repositorio",
+        "projectPath": "D:\\GIT\\ProjetoEntrevista\\Cedro.RestauranteGranville\\Cedro.RestauranteGranville.Repositorio\\Cedro.RestauranteGranville.Repositorio.csproj",
+        "packagesPath": "C:\\Users\\Jorcelino\\.nuget\\packages\\",
+        "outputPath": "D:\\GIT\\ProjetoEntrevista\\Cedro.RestauranteGranville\\Cedro.RestauranteGranville.Repositorio\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Jorcelino\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "D:\\GIT\\ProjetoEntrevista\\Cedro.RestauranteGranville\\Cedro.RestauranteGranville.Dominio\\Cedro.RestauranteGranville.Dominio.csproj": {
+                "projectPath": "D:\\GIT\\ProjetoEntrevista\\Cedro.RestauranteGranville\\Cedro.RestauranteGranville.Dominio\\Cedro.RestauranteGranville.Dominio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Proxies": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
