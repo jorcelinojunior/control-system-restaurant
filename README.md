@@ -1,5 +1,5 @@
 
-# dish-control-system-restaurant
+# control-system-restaurant
  
 The application is available for testing at the link below: 
 
