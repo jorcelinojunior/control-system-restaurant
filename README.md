@@ -6,7 +6,7 @@ The application is available for testing at the link below:
 > http://sublimefood.site
 
 You can:
- - Register **new dishes**
+ - Register **new menu options**
  - Register **new restaurants**
  - **Edit** information
  - And **search by name**
