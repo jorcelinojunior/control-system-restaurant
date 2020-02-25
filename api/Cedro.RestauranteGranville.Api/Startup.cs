@@ -35,7 +35,7 @@ namespace Cedro.RestauranteGranville.Api
             services.AddCors();
 
 
-            var connectionString = Configuration.GetConnectionString("GranvilleDB");
+            var connectionString = Configuration.GetConnectionString("freemysqlhosting");
             services.AddDbContext<GranvilleContexto>(option =>
                         option.UseLazyLoadingProxies().UseMySql(connectionString,
                                 m => m.MigrationsAssembly("Cedro.RestauranteGranville.Repositorio")));

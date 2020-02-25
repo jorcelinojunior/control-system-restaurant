@@ -7,3 +7,11 @@ D:\GIT\ProjetoEntrevista\Cedro.RestauranteGranville\Cedro.RestauranteGranville.D
 D:\GIT\ProjetoEntrevista\Cedro.RestauranteGranville\Cedro.RestauranteGranville.Dominio\obj\Release\netcoreapp2.2\Cedro.RestauranteGranville.Dominio.AssemblyInfo.cs
 D:\GIT\ProjetoEntrevista\Cedro.RestauranteGranville\Cedro.RestauranteGranville.Dominio\obj\Release\netcoreapp2.2\Cedro.RestauranteGranville.Dominio.dll
 D:\GIT\ProjetoEntrevista\Cedro.RestauranteGranville\Cedro.RestauranteGranville.Dominio\obj\Release\netcoreapp2.2\Cedro.RestauranteGranville.Dominio.pdb
+D:\GIT\dish-control-system-restaurant\api\Cedro.RestauranteGranville.Dominio\bin\Release\netcoreapp2.2\Cedro.RestauranteGranville.Dominio.deps.json
+D:\GIT\dish-control-system-restaurant\api\Cedro.RestauranteGranville.Dominio\bin\Release\netcoreapp2.2\Cedro.RestauranteGranville.Dominio.dll
+D:\GIT\dish-control-system-restaurant\api\Cedro.RestauranteGranville.Dominio\bin\Release\netcoreapp2.2\Cedro.RestauranteGranville.Dominio.pdb
+D:\GIT\dish-control-system-restaurant\api\Cedro.RestauranteGranville.Dominio\obj\Release\netcoreapp2.2\Cedro.RestauranteGranville.Dominio.csprojAssemblyReference.cache
+D:\GIT\dish-control-system-restaurant\api\Cedro.RestauranteGranville.Dominio\obj\Release\netcoreapp2.2\Cedro.RestauranteGranville.Dominio.AssemblyInfoInputs.cache
+D:\GIT\dish-control-system-restaurant\api\Cedro.RestauranteGranville.Dominio\obj\Release\netcoreapp2.2\Cedro.RestauranteGranville.Dominio.AssemblyInfo.cs
+D:\GIT\dish-control-system-restaurant\api\Cedro.RestauranteGranville.Dominio\obj\Release\netcoreapp2.2\Cedro.RestauranteGranville.Dominio.dll
+D:\GIT\dish-control-system-restaurant\api\Cedro.RestauranteGranville.Dominio\obj\Release\netcoreapp2.2\Cedro.RestauranteGranville.Dominio.pdb

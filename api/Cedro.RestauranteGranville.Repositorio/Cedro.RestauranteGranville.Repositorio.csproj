@@ -20,6 +20,10 @@
   <ItemGroup>
     <Compile Include="Migrations\20190707225019_PrimeiraMigration.cs" />
     <Compile Include="Migrations\20190707225019_PrimeiraMigration.designer.cs" />
+    <Compile Include="Migrations\20200220044252_NovaMigration2020.cs" />
+    <Compile Include="Migrations\20200220044252_NovaMigration2020.designer.cs" />
+    <Compile Include="Migrations\20200220045347_NovaMigration2020.2.cs" />
+    <Compile Include="Migrations\20200220045347_NovaMigration2020.2.designer.cs" />
     <Compile Include="Migrations\GranvilleContextoModelSnapshot.cs" />
   </ItemGroup>
 

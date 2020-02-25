@@ -5,8 +5,8 @@ import { AppModule } from './app/app.module';
 import { environment } from './environments/environment';
 
 export function getBaseUrl() {
-  //return "http://api-restaurantegranville.azurewebsites.net";
-  return "https://localhost:44374";
+  return "http://api-restaurantegranville.azurewebsites.net/";
+  //return "https://localhost:44374";
 }
 
 const providers = [

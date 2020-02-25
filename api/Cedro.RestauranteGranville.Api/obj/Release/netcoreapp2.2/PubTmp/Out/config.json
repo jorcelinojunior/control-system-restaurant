@@ -1,6 +1,9 @@
 {
   "ConnectionStrings": {
-    "localhost"  : "server=127.0.0.1;uid=root;pwd=;database=Granville",
+    "localhost": "server=127.0.0.1;uid=root;pwd=;database=Granville",
     "GranvilleDB": "server=sql248.main-hosting.eu;uid=u204920469_granv;pwd=123456;database=u204920469_resta",
+    "FreRemoteMySql": "server=remotemysql.com;uid=ZWodles2qA;pwd=d75ik1TC6S;database=ZWodles2qA",
+    "freemysqlhosting": "server=sql10.freemysqlhosting.net;uid=sql10323764;pwd=ezWXEPiMRY;database=sql10323764"
+
   }
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GIT\\ProjetoEntrevista\\Cedro.RestauranteGranville\\Cedro.RestauranteGranville.Api\\Cedro.RestauranteGranville.Api.csproj": {}
+    "D:\\GIT\\dish-control-system-restaurant\\api\\Cedro.RestauranteGranville.Api\\Cedro.RestauranteGranville.Api.csproj": {}
   },
   "projects": {
-    "D:\\GIT\\ProjetoEntrevista\\Cedro.RestauranteGranville\\Cedro.RestauranteGranville.Api\\Cedro.RestauranteGranville.Api.csproj": {
+    "D:\\GIT\\dish-control-system-restaurant\\api\\Cedro.RestauranteGranville.Api\\Cedro.RestauranteGranville.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GIT\\ProjetoEntrevista\\Cedro.RestauranteGranville\\Cedro.RestauranteGranville.Api\\Cedro.RestauranteGranville.Api.csproj",
+        "projectUniqueName": "D:\\GIT\\dish-control-system-restaurant\\api\\Cedro.RestauranteGranville.Api\\Cedro.RestauranteGranville.Api.csproj",
         "projectName": "Cedro.RestauranteGranville.Api",
-        "projectPath": "D:\\GIT\\ProjetoEntrevista\\Cedro.RestauranteGranville\\Cedro.RestauranteGranville.Api\\Cedro.RestauranteGranville.Api.csproj",
+        "projectPath": "D:\\GIT\\dish-control-system-restaurant\\api\\Cedro.RestauranteGranville.Api\\Cedro.RestauranteGranville.Api.csproj",
         "packagesPath": "C:\\Users\\Jorcelino\\.nuget\\packages\\",
-        "outputPath": "D:\\GIT\\ProjetoEntrevista\\Cedro.RestauranteGranville\\Cedro.RestauranteGranville.Api\\obj\\",
+        "outputPath": "D:\\GIT\\dish-control-system-restaurant\\api\\Cedro.RestauranteGranville.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -30,8 +30,8 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "D:\\GIT\\ProjetoEntrevista\\Cedro.RestauranteGranville\\Cedro.RestauranteGranville.Repositorio\\Cedro.RestauranteGranville.Repositorio.csproj": {
-                "projectPath": "D:\\GIT\\ProjetoEntrevista\\Cedro.RestauranteGranville\\Cedro.RestauranteGranville.Repositorio\\Cedro.RestauranteGranville.Repositorio.csproj"
+              "D:\\GIT\\dish-control-system-restaurant\\api\\Cedro.RestauranteGranville.Repositorio\\Cedro.RestauranteGranville.Repositorio.csproj": {
+                "projectPath": "D:\\GIT\\dish-control-system-restaurant\\api\\Cedro.RestauranteGranville.Repositorio\\Cedro.RestauranteGranville.Repositorio.csproj"
               }
             }
           }
@@ -68,21 +68,27 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\GIT\\ProjetoEntrevista\\Cedro.RestauranteGranville\\Cedro.RestauranteGranville.Dominio\\Cedro.RestauranteGranville.Dominio.csproj": {
+    "D:\\GIT\\dish-control-system-restaurant\\api\\Cedro.RestauranteGranville.Dominio\\Cedro.RestauranteGranville.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GIT\\ProjetoEntrevista\\Cedro.RestauranteGranville\\Cedro.RestauranteGranville.Dominio\\Cedro.RestauranteGranville.Dominio.csproj",
+        "projectUniqueName": "D:\\GIT\\dish-control-system-restaurant\\api\\Cedro.RestauranteGranville.Dominio\\Cedro.RestauranteGranville.Dominio.csproj",
         "projectName": "Cedro.RestauranteGranville.Dominio",
-        "projectPath": "D:\\GIT\\ProjetoEntrevista\\Cedro.RestauranteGranville\\Cedro.RestauranteGranville.Dominio\\Cedro.RestauranteGranville.Dominio.csproj",
+        "projectPath": "D:\\GIT\\dish-control-system-restaurant\\api\\Cedro.RestauranteGranville.Dominio\\Cedro.RestauranteGranville.Dominio.csproj",
         "packagesPath": "C:\\Users\\Jorcelino\\.nuget\\packages\\",
-        "outputPath": "D:\\GIT\\ProjetoEntrevista\\Cedro.RestauranteGranville\\Cedro.RestauranteGranville.Dominio\\obj\\",
+        "outputPath": "D:\\GIT\\dish-control-system-restaurant\\api\\Cedro.RestauranteGranville.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -120,21 +126,27 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\GIT\\ProjetoEntrevista\\Cedro.RestauranteGranville\\Cedro.RestauranteGranville.Repositorio\\Cedro.RestauranteGranville.Repositorio.csproj": {
+    "D:\\GIT\\dish-control-system-restaurant\\api\\Cedro.RestauranteGranville.Repositorio\\Cedro.RestauranteGranville.Repositorio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GIT\\ProjetoEntrevista\\Cedro.RestauranteGranville\\Cedro.RestauranteGranville.Repositorio\\Cedro.RestauranteGranville.Repositorio.csproj",
+        "projectUniqueName": "D:\\GIT\\dish-control-system-restaurant\\api\\Cedro.RestauranteGranville.Repositorio\\Cedro.RestauranteGranville.Repositorio.csproj",
         "projectName": "Cedro.RestauranteGranville.Repositorio",
-        "projectPath": "D:\\GIT\\ProjetoEntrevista\\Cedro.RestauranteGranville\\Cedro.RestauranteGranville.Repositorio\\Cedro.RestauranteGranville.Repositorio.csproj",
+        "projectPath": "D:\\GIT\\dish-control-system-restaurant\\api\\Cedro.RestauranteGranville.Repositorio\\Cedro.RestauranteGranville.Repositorio.csproj",
         "packagesPath": "C:\\Users\\Jorcelino\\.nuget\\packages\\",
-        "outputPath": "D:\\GIT\\ProjetoEntrevista\\Cedro.RestauranteGranville\\Cedro.RestauranteGranville.Repositorio\\obj\\",
+        "outputPath": "D:\\GIT\\dish-control-system-restaurant\\api\\Cedro.RestauranteGranville.Repositorio\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -153,8 +165,8 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "D:\\GIT\\ProjetoEntrevista\\Cedro.RestauranteGranville\\Cedro.RestauranteGranville.Dominio\\Cedro.RestauranteGranville.Dominio.csproj": {
-                "projectPath": "D:\\GIT\\ProjetoEntrevista\\Cedro.RestauranteGranville\\Cedro.RestauranteGranville.Dominio\\Cedro.RestauranteGranville.Dominio.csproj"
+              "D:\\GIT\\dish-control-system-restaurant\\api\\Cedro.RestauranteGranville.Dominio\\Cedro.RestauranteGranville.Dominio.csproj": {
+                "projectPath": "D:\\GIT\\dish-control-system-restaurant\\api\\Cedro.RestauranteGranville.Dominio\\Cedro.RestauranteGranville.Dominio.csproj"
               }
             }
           }
@@ -184,10 +196,16 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
